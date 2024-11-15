@@ -12,6 +12,7 @@
   --author: #2d70fd;
   --green: #0cf50f;
   --white: #f1eff9;
+  --btn-add: #3e13ec;
   --todo: #f1eff9;
   --disable: #c43131ff;
   --btn-hover: #06f154;
@@ -27,6 +28,7 @@
   --author: #e6ebf4;
   --green: #4ee851;
   --white: #090613;
+  --btn-add: #d9d7df;
   --todo: #090613;
   --disable: rgb(245, 244, 244);
   --btn-hover: #1542f9;
@@ -217,7 +219,7 @@ input[type="checkbox"]::before {
   font-size: 0.9rem;
   padding: 0.6rem 1.2rem;
   border-radius: 0.3rem;
-  background-color: var(--blue);
+  background-color: var(--btn-add);
   border: none;
   cursor: pointer;
   transition: background-color 0.2s ease;
