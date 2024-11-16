@@ -17,6 +17,7 @@
   --disable: #c43131ff;
   --btn-hover: #06f154;
   --input-field: #f1eff9;
+  --input-field-text: #090a0a;
 }
 .darkmode {
   --gradient: linear-gradient(180deg, black 50%, #434343 100%);
@@ -33,6 +34,7 @@
   --disable: rgb(245, 244, 244);
   --btn-hover: #1542f9;
   --input-field: #090a0a;
+  --input-field-text: #e6ebf4;
 }
 #theme-switch {
   height: 50px;
@@ -150,6 +152,7 @@ h2 {
   padding: 0.8rem;
   font-size: 0.9rem;
   background: var(--input-field);
+  color: var(--input-field-text);
 }
 
 input[type="text"]::placeholder {
